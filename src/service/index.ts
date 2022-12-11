@@ -2,7 +2,7 @@
  * @Author: Reya
  * @Date: 2022-05-19 18:28:13
  * @LastEditors: Reya
- * @LastEditTime: 2022-05-20 20:48:39
+ * @LastEditTime: 2022-12-09 21:54:30
  * @Description:接口
  */
 import request from './request'
@@ -74,7 +74,7 @@ export function getUserInfo (id:any) {
  */
 export function getColumnList () {
   return request({
-    url: '/api/column/list',
+    url: '/api/user/list',
     method: 'get'
   })
 }

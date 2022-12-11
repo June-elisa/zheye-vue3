@@ -31,8 +31,8 @@ export interface GlobalDataProps {
 
 export default createStore<GlobalDataProps>({
   state: {
-    columns: testData,
-    posts: testPosts,
+    columns: [],
+    posts: [],
     user: { isLogin: false }
   },
   getters: {
